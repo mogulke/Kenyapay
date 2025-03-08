@@ -26,6 +26,9 @@ app.get("/ping", (_, res) => {
   res.send("minikit-example pong v1");
 });
 
+app.get("/", (_, res) => {
+  res.send("Welcome to the API");
+});
 // protected routes
 app.post("/verify", verifyHandler);
 app.post("/initiate-payment", initiatePaymentHandler);

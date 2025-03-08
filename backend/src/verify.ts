@@ -5,6 +5,8 @@ import {
 } from "@worldcoin/minikit-js";
 import { RequestHandler } from "express";
 
+
+
 interface IRequestPayload {
   payload: ISuccessResult;
   action: string;
